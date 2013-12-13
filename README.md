@@ -11,7 +11,7 @@ The demo code can be built using the [PhoneGap:Build](https://build.phonegap.com
 
 * [Lightstreamer in a PhoneGap app](http://blog.lightstreamer.com/2012/08/lightstreamer-in-phonegap-app.html)
 * [PhoneGap](http://phonegap.com/)
-* [Lightstreamer - Stock-List Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 
 # Lightstreamer Compatibility Notes #
 
