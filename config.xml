@@ -10,9 +10,9 @@
 		A template for getting started with PhoneGap development and build.phonegap.com
 	</description>
 
-	<author href="https://github.com/Mone"
-		email="simone.fabiano@lightstreamer.com">
-		Mone
+	<author href="https://github.com/Weswit"
+		email="support@lightstreamer.com">
+		Weswit
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
