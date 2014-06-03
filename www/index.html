@@ -27,20 +27,30 @@
     </head>
     <body>
         <div class="app">
-            <div id="title_bar">Phone<strong>Gap</strong> + <img id="lslogo" src="assets/img/lslogo.png"/></div>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+            <div class="box">Phone<strong>Gap</strong> + <img id="lslogo" src="img/lslogo.png"/></div>
+      
+            <div class="section">
+                Connection to device:            
+                <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting</p>
+                    <p class="event received">Ready</p>
+                </div>
             </div>
-            <div>Lightstreamer connection status: <span id="connection_status">DISCONNECTED</span></div>
+            
+            <div class="section">
+                Connection to Lightstreamer:
+                <div id="connection_status">DISCONNECTED</div>
+            </div>
+            
             <ul>
-			        <li id="stocks" data-source="lightstreamer">
-			          <span class="stock_name" data-source="lightstreamer" data-field="stock_name"></span>
-			          <span class="last_price" data-source="lightstreamer" data-field="last_price"></span>
-			        </li>
-			      </ul>
+                <li id="stocks" data-source="lightstreamer">
+                    <span class="stock_name" data-source="lightstreamer" data-field="stock_name"></span>
+                    <span class="last_price" data-source="lightstreamer" data-field="last_price"></span>
+                </li>
+            </ul>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/lightstreamer.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
