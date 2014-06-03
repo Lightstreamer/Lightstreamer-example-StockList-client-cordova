@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
+	id		= "com.lightstreamer.phonegap.getting.started"
 	version 	= "2.0.0">
 
-	<name>PhoneGap: Getting Started</name>
+	<name>Lightstreamer+PhoneGap: Getting Started</name>
 
 	<description>
 		A template for getting started with Lightstreamer+PhoneGap development and build.phonegap.com
