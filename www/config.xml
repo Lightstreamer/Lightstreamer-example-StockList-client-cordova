@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.lightstreamer.phonegap.getting.started"
+	version 	= "2.0.0">
+
+	<name>Lightstreamer+PhoneGap Getting Started</name>
+
+	<description>
+		A template for getting started with Lightstreamer+PhoneGap development and build.phonegap.com
+	</description>
+
+	<author href="https://github.com/Weswit"
+		email="support@lightstreamer.com">
+		Weswit
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	
+	<preference name="permissions" value="none"/>
+
+	<preference name="orientation" value="portrait" />
+	<preference name="target-device" value="universal" />  
+	<preference name="phonegap-version" value="3.4.0" />
+	<preference name="stay-in-webview" value="false" /> 
+	<preference name="android-minSdkVersion" value="7" /> 
+	<preference name="android-installLocation" value="auto" />
+	
+	<gap:plugin name="org.apache.cordova.console" />
+	
+	<icon src="icon.png" />
+ 
+	<access origin="*"/>
+</widget>
