@@ -5,7 +5,7 @@ This project includes a simple demo showing integration between the <b>Lightstre
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-phonegap -->
 
 The demo application extends the [PhoneGap Hello World](https://github.com/phonegap/phonegap-start) application by adding a section that shows some stock quotes from the [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) and a box that shows the status of the connection to the Lightstreamer Server.
-[Demo ScreenShot](screenshot-phonegap.png)<br>
+![Demo ScreenShot](screenshot-phonegap.png)<br>
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-phonegap -->
 
 # Build #
