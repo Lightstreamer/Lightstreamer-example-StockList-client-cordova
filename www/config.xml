@@ -27,7 +27,7 @@
 	<preference name="android-installLocation" value="auto" />
 	
 	<gap:plugin name="org.apache.cordova.console" />
-	<gap:plugin name="cordova-plugin-whitelist" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 
 	<icon src="icon.png" />
  
