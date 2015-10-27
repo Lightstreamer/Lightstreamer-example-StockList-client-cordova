@@ -27,11 +27,11 @@
 	<preference name="android-installLocation" value="auto" />
 	
 	<gap:plugin name="org.apache.cordova.console" />
-	
+	<gap:plugin name="cordova-plugin-whitelist" />
+
 	<icon src="icon.png" />
  
 	<access origin="*"/>
-  <plugin name="cordova-plugin-whitelist" version="1" />
-  <allow-intent href="http://*/*" />
-  <allow-intent href="https://*/*" />
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
 </widget>
