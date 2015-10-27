@@ -31,4 +31,7 @@
 	<icon src="icon.png" />
  
 	<access origin="*"/>
+  <plugin name="cordova-plugin-whitelist" version="1" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
 </widget>
