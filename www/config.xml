@@ -21,7 +21,7 @@
 
 	<preference name="orientation" value="portrait" />
 	<preference name="target-device" value="universal" />  
-	<preference name="phonegap-version" value="5.2.0" />
+	<preference name="phonegap-version" value="cli-5.2.0" />
 	<preference name="stay-in-webview" value="false" /> 
 	<preference name="android-minSdkVersion" value="7" /> 
 	<preference name="android-installLocation" value="auto" />
