@@ -31,4 +31,6 @@ The demo code can be built using the [PhoneGap:Build](https://build.phonegap.com
 
 ## Lightstreamer Compatibility Notes
 
-*  Compatible with Lightstreamer JavaScript Client library version 6.0 to 7.x.
+* Compatible with Lightstreamer Web Client library version 8.0 or newer.
+
+* For a version of this example compatible with Lightstreamer SDK for Web Clients version 7.x or earlier, please refer to [this tag](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-phonegap/releases/tag/latest-for-client-7.x).
