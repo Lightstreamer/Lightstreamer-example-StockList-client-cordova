@@ -1,21 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
 var app = {
     // Application Constructor
     initialize: function() {
@@ -50,8 +32,10 @@ var app = {
     },
     
     setupLightstreamer: function() {
+      Lightstreamer.LightstreamerClient.setLoggerProvider(new Lightstreamer.ConsoleLoggerProvider(Lightstreamer.ConsoleLogLevel.WARN));
+
       //setup the lightstreamer connection
-      var lsClient = new Lightstreamer.LightstreamerClient("http://push.lightstreamer.com","DEMO");
+      var lsClient = new Lightstreamer.LightstreamerClient("https://push.lightstreamer.com","DEMO");
       lsClient.addListener({
         onStatusChange: function(newStatus) {
           //update the connection status on the UI
@@ -76,7 +60,7 @@ var app = {
       });
       
       //prepare the subscription and bind it to the grid
-      var sub = new Lightstreamer.Subscription("MERGE",["item3","item4","item5","item6","item7"],grid.extractFieldList()); 
+      var sub = new Lightstreamer.Subscription("MERGE",["item3","item4","item5","item6","item7","item8","item9"],grid.extractFieldList()); 
       sub.addListener(grid);
       sub.setDataAdapter("QUOTE_ADAPTER");
       sub.setRequestedSnapshot("yes");
