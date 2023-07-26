@@ -32,7 +32,7 @@ in `www/js/index.js` and change it accordingly.<br>
 
 ## See Also
 
- [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client)
+* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript#basic-stock-list-demo---html-client)
 * [Lightstreamer - Basic Stock-List Demo - Flutter](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-flutter)
 * [Lightstreamer - Basic Stock-List Demo - React Native](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-reactnative)
 * [Lightstreamer - Basic Stock-List Demo - Electron](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-electron)
